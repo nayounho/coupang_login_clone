@@ -1,0 +1,27 @@
+$blue: #0074e9;
+$white: #ffffff;
+
+.button {
+  width: 575px;
+  height: 66px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 2px 2px 2px #ccc;
+}
+
+.button.primary {
+  background-color: #0074e9;
+  color: #fff;
+}
+
+.button.secondary {
+  color: #0074e9;
+  background-color: #fff;
+}
+
+.button.primary:disabled {
+  background-color: black;
+  cursor: not-allowed;
+}
