@@ -10,7 +10,7 @@ class AutoSignCheckbox extends Component {
       <div className="AutoSignForm">
         <div className="checkbox">
           {this.props.checked === 'true' ? <CheckedTrue /> : <CheckedFalse />}
-          <span>{this.props.children}</span>
+          <span className="autoLogin">{this.props.children}</span>
         </div>
         <div className="searchIdPw">
           <a href="https://www.google.com">아이디(이메일)/비밀번호 찾기</a>

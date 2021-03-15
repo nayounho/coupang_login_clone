@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  flex-flow: column;
+  margin: 32px 0 22px 0;
+  border-bottom: 1px solid black;
+}
+
+.form_footer {
+  display: flex;
+  flex-flow: column;
+  margin-top: 22px;
+}

@@ -12,8 +12,9 @@ class Input extends Component {
         {this.props.icon === 'inputEmail' ? <InputEmail /> : <InputLock />}
         <input className={`input input_${this.props.name}`} type= {`${this.props.type}`} 
           placeholder={this.props.type === 'text' ? '아이디(이메일)' : '비밀번호'}/>
-        {this.props.type === 'password' ? this.props.visible === 'inputOpenEyes' 
-          ? <VisibleTrue /> : <VisibleFalse /> : null}
+          {this.props.type === 'password' ? this.props.visible === 'inputOpenEyes' 
+          ? <button className="Visible"><VisibleTrue /></button> 
+          : <button className="Visible"><VisibleFalse /></button> : null}
       </div>
     )  
   }

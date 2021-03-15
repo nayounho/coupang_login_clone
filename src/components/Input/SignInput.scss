@@ -4,10 +4,26 @@
   align-items: center;
   width: 575px;
   margin-top: 16px;
+  position: relative;
 }
 
 .input {
   flex-grow: 1;
   height: 50px;
   border: 1px solid #ccc;
+}
+
+.Visible {
+  border: none;
+  position: absolute;
+  right: 3px;
+  z-index: 10;
+  top: 0;
+  box-shadow: none;
+  padding: 0;
+  background: none;
+
+  svg {
+    width: 40px;
+  }
 }

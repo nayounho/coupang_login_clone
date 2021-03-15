@@ -23,5 +23,6 @@ $white: #ffffff;
 
 .button.primary:disabled {
   background-color: black;
+  box-shadow: 0 2px 2px 2px black;
   cursor: not-allowed;
 }
