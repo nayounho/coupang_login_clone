@@ -1,0 +1,13 @@
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 575px;
+  margin-top: 16px;
+}
+
+.input {
+  flex-grow: 1;
+  height: 50px;
+  border: 1px solid #ccc;
+}

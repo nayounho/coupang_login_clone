@@ -4,7 +4,8 @@ import {ReactComponent as Black} from '../../essets/logo/black.svg';
 
 
 const Logo = (props) => {
-  return (props.type === "colorful" ? <Colorful /> : props.type === "mono" ? <Mono /> : <Black />)
+  return (props.type === "colorful" ? <Colorful /> :
+   props.type === "mono" ? <Mono /> : <Black />)
 }
 
 export default Logo;

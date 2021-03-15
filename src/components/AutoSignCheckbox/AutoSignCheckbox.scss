@@ -1,0 +1,30 @@
+.AutoSignForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 575px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIdPw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIdPw > a {
+  color: #0074e9;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 8px;
+}
+
+.checkbox > span {
+  font-size: 14px;
+  font-weight: 400;
+}
